@@ -1,0 +1,33 @@
+{
+  "name": "dino",
+  "version": "1.0.0",
+  "description": "Terminal-based Chrome Dino game",
+  "main": "src/index.js",
+  "bin": {
+    "dino": "./bin/dino.js"
+  },
+  "scripts": {
+    "start": "node bin/dino.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prabhav1437/dino_cli.git"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "dino",
+    "chrome-dino",
+    "terminal",
+    "cli",
+    "game"
+  ],
+  "author": "Prabhav",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

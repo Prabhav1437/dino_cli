@@ -1,10 +1,10 @@
 {
-  "name": "dino",
+  "name": "@prabhav1437/dino",
   "version": "1.0.0",
   "description": "Terminal-based Chrome Dino game",
   "main": "src/index.js",
   "bin": {
-    "dino": "./bin/dino.js"
+    "dino": "bin/dino.js"
   },
   "scripts": {
     "start": "node bin/dino.js"
@@ -29,5 +29,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

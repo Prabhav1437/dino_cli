@@ -11,7 +11,7 @@ npx dino
 ## Global Install
 
 ```bash
-npm install -g dino
+npm install -g @prabhav1437/dino
 dino
 ```
 
